@@ -1,8 +1,14 @@
-class DiffTest{
+public class DiffTest{
 
 public int diff21(int n) {
+int a;
+if (n <=21){
+   a = 21-n;
+}
+else
+   a =(n-21)*2;
 
-return 0;
+return a;
 }
 
 public static void main (String[] args) {
